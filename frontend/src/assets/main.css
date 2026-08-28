@@ -1,0 +1,26 @@
+
+:root {
+  --bg-color: #f4f1ea;
+  --card-bg: #ffffff;
+  --primary-text: #4a4a4a;
+  --secondary-text: #7a7a7a;
+  --transport-color: #a8b0b8;
+  --hotel-color: #b5c4b1;
+  --itinerary-color: #d4b5b0;
+  --chat-color: #e8e4df;
+}
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--primary-text);
+  margin: 0;
+  padding: 20px;
+  height: 100vh;
+  overflow: hidden;
+  animation: bgShift 10s infinite alternate;
+}
+@keyframes bgShift {
+  0% { background-color: #f4f1ea; }
+  50% { background-color: #eae8f4; }
+  100% { background-color: #f0f4ea; }
+}
